@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-container, footer {
@@ -86,4 +88,31 @@ li {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  margin: 30px auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.card {
+  height: auto;
+  max-width: 220px;
+}
+
+.card img {
+  height: 200px;
+  border-radius: 15px;
 }
