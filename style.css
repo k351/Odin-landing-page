@@ -1,9 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
+  height: 100vh;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .header-container, footer {
@@ -133,10 +135,10 @@ li {
 }
 
 .quote-text {
-  font-size: 36px;
+  font-size: 30px;
   font-style: italic;
   color: #1F2937;
-  max-width: 815px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -183,6 +185,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: end;
+  width: 150px;
 }
 
 .bottom .right .sign-up {
@@ -198,5 +201,13 @@ li {
   color: white;
   padding: 10px 25px;
   height: 70px;
-  width : 140px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  height: 70px;
 }
