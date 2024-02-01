@@ -93,26 +93,57 @@ li {
 
 .content {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 
-.content h1 {
-  margin: 30px auto;
-}
 
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
   text-align: center;
 }
 
 .card {
-  height: auto;
-  max-width: 220px;
+  margin: 0 10px;
 }
 
 .card img {
-  height: 200px;
+  height: 190px;
+  width: auto;
   border-radius: 15px;
+}
+
+.card div {
+  max-width: 190px;
+}
+
+
+.quote {
+  background: #E5E7EB;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 815px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.author {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
 }
