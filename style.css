@@ -79,6 +79,7 @@ li {
 }
 
 .header-article img {
+  object-fit: cover;
   width: 450px;
   height: 227px;
 }
