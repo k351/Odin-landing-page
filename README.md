@@ -21,14 +21,15 @@ Aplikasi Revife terdiri dari beberapa halaman utama: index.html, shop.html, prod
 
 ## Fitur Utama
 
-1. **Header & Footer**: Terdapat 5 komponen utama di header—explore, dark-mode, cart, wishlist, dan navigasi kategori produk.
+1. **Header & Footer**: Terdapat 5 komponen utama di dark-mode, cart, wishlist, settings dan transaction history.
 2. **Dark Mode**: Memungkinkan pengguna beralih antara mode terang dan gelap sesuai preferensi.
 3. **Responsive Menu**: Menu yang otomatis beradaptasi saat diakses dari perangkat mobile.
 4. **Search**: Fitur pencarian produk dari index.html langsung menuju shop.html.
 5. **Carousel**: Menampilkan gambar produk yang bergerak otomatis atau dengan klik.
-6. **Wishlist & Cart**: Menyimpan produk di wishlist atau menambahkannya ke keranjang belanja dengan pengelolaan melalui localStorage.
-7. **Filter**: Mempermudah pengguna untuk mencari produk berdasarkan kategori, harga, atau rating.
-8. **History**: Melacak dan menampilkan riwayat aktivitas pengguna di aplikasi.
-9. **Admin Dashboard**: Halaman admin untuk mengelola produk, pengguna, dan data transaksi dengan mudah.
+6. **Wishlist & Cart**: Menyimpan produk di wishlist atau menambahkannya ke keranjang belanja dengan pengelolaan melalui database MongoDB.
+7. **Filter**: Mempermudah pengguna untuk mencari produk berdasarkan nama, kategori, harga, atau rating.
+8. **History**: Melacak dan menampilkan riwayat transaksi seorang user.
+9. **Admin Dashboard**: Halaman admin untuk mengelola produk, pengguna, diskon, transaksi, serta kategori yang ada.
+10. 
 
 Dengan fitur-fitur ini, kami berharap aplikasi Revife dapat memberikan pengalaman berbelanja online yang praktis, nyaman, dan menyenangkan bagi pengguna.
