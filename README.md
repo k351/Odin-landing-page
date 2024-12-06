@@ -1,35 +1,87 @@
 # Tentang Kami
 
-Hai! Kami adalah tim beranggotakan 3 orang yang bersemangat dalam menciptakan platform e-commerce dengan tema life-style. Anggota tim kami terdiri dari:
+Halo! Kami adalah tim kreatif yang terdiri dari tiga anggota dengan semangat tinggi untuk menciptakan platform e-commerce bertema gaya hidup (life-style). Dalam proyek ini, kami berkolaborasi untuk menghadirkan pengalaman berbelanja online yang modern, stylish, dan mudah digunakan. 
 
-## Enardo Stefanus (535230072) - etherealesz  
-## Alvin Kurniawan (535230084) - k351  
-## Christopher Wijaya (535230158) - bluw6525  
+### Anggota Tim
 
-- [Link Youtube Demo](https://www.youtube.com/watch?v=nEtIriYSrlU)  
-- [Link Video Source Code](https://youtu.be/Z615WdRMCEs)  
+1. **Enardo Stefanus** (535230072) - _etherealesz_
+2. **Alvin Kurniawan** (535230084) - _k351_
+3. **Christopher Wijaya** (535230158) - _bluw6525_
 
-Dalam proyek ini, kami berkolaborasi untuk menciptakan website fashion modern yang ditujukan bagi kaum muda dengan fokus pada tampilan yang stylish dan nyaman. Kami berharap platform ini dapat memberikan pengalaman berbelanja online yang praktis dan menyenangkan bagi penggunanya.
+### Link Terkait
+- [Video Demo Aplikasi](https://www.youtube.com/watch?v=nEtIriYSrlU)  
+- [Video Penjelasan Source Code](https://youtu.be/Z615WdRMCEs)  
+- [Akses Halaman GitHub Pages](https://github.com/k351/UAS_frontend_kel5)
 
-Proyek ini dibangun menggunakan AngularJS dan MongoDB untuk memastikan performa yang optimal dan fleksibilitas dalam pengembangan fitur-fitur baru. Untuk mengakses halaman ini secara langsung, silakan kunjungi [GitHub Pages kami](https://github.com/k351/UAS_frontend_kel5).
+## Tentang Proyek
+
+**Revife** adalah platform e-commerce bertema fashion dengan fokus utama pada pengguna muda yang mencari produk bergaya modern dan kekinian. Dengan menggunakan teknologi AngularJS dan MongoDB, aplikasi ini dirancang untuk memberikan performa tinggi, fleksibilitas dalam pengembangan, serta pengalaman pengguna yang intuitif.
+
+**Visi Kami:**  
+Menciptakan platform yang memberikan pengalaman belanja online yang praktis, nyaman, dan menyenangkan. 
+
+**Tujuan:**  
+- Memberikan antarmuka yang stylish dan menarik.  
+- Menghadirkan fitur-fitur yang relevan dan memudahkan pengguna.  
+- Menyediakan pengalaman belanja yang aman dan transparan.  
 
 ---
 
 ## Cara Kerja Aplikasi
 
-Aplikasi Revife terdiri dari beberapa halaman utama: index.html, shop.html, product.html, wishlist.html, cart.html, checkout.html, serta halaman tambahan seperti admin dashboard dan history. Pengguna dapat melihat deskripsi produk, menambahkannya ke wishlist atau cart, dan melanjutkan ke proses pembayaran. Wishlist memungkinkan pengguna menyimpan dan mengelola produk yang diinginkan, sementara cart mencakup pengaturan jumlah barang dan penerapan kupon. Proses checkout memerlukan pengisian alamat pengiriman serta metode pembayaran. History mencatat aktivitas pengguna, dan admin dashboard mempermudah pengelolaan data aplikasi.
+Aplikasi **Revife** mencakup berbagai halaman utama yang dirancang untuk kebutuhan belanja online, seperti:  
+- **index.html**: Halaman utama dengan akses cepat ke kategori produk.  
+- **shop.html**: Halaman belanja dengan fitur filter dan pencarian.  
+- **product.html**: Halaman detail produk.  
+- **wishlist.html**: Halaman untuk menyimpan produk favorit.  
+- **cart.html**: Halaman pengelolaan keranjang belanja.  
+- **checkout.html**: Proses pembayaran yang mencakup pengisian alamat dan metode pembayaran.  
+- **admin dashboard**: Halaman admin untuk pengelolaan data aplikasi.  
+- **history.html**: Halaman riwayat transaksi pengguna.
+
+Setiap halaman dirancang untuk memastikan kemudahan navigasi dan pengalaman belanja yang seamless bagi pengguna.
+
+---
 
 ## Fitur Utama
 
-1. **Header & Footer**: Terdapat 5 komponen utama di dark-mode, cart, wishlist, settings dan transaction history.
-2. **Dark Mode**: Memungkinkan pengguna beralih antara mode terang dan gelap sesuai preferensi.
-3. **Responsive Menu**: Menu yang otomatis beradaptasi saat diakses dari perangkat mobile.
-4. **Search**: Fitur pencarian produk dari index.html langsung menuju shop.html.
-5. **Carousel**: Menampilkan gambar produk yang bergerak otomatis atau dengan klik.
-6. **Wishlist & Cart**: Menyimpan produk di wishlist atau menambahkannya ke keranjang belanja dengan pengelolaan melalui database MongoDB.
-7. **Filter**: Mempermudah pengguna untuk mencari produk berdasarkan nama, kategori, harga, atau rating.
-8. **History**: Melacak dan menampilkan riwayat transaksi seorang user.
-9. **Admin Dashboard**: Halaman admin untuk mengelola produk, pengguna, diskon, transaksi, serta kategori yang ada.
-10. 
+1. **Header & Footer Modern**:  
+   Desain responsif dengan komponen seperti dark mode, cart, wishlist, settings, dan transaction history.  
 
-Dengan fitur-fitur ini, kami berharap aplikasi Revife dapat memberikan pengalaman berbelanja online yang praktis, nyaman, dan menyenangkan bagi pengguna.
+2. **Dark Mode**:  
+   Fitur untuk mengganti tema antara mode terang dan gelap sesuai preferensi pengguna.  
+
+3. **Menu Responsif**:  
+   Menu yang otomatis beradaptasi saat diakses dari perangkat mobile.  
+
+4. **Search Produk**:  
+   Pencarian produk dari halaman utama (index.html) yang terintegrasi langsung ke halaman belanja (shop.html).  
+
+5. **Carousel Produk**:  
+   Menampilkan koleksi produk unggulan dengan animasi yang menarik.  
+
+6. **Wishlist & Keranjang Belanja (Cart)**:  
+   - Wishlist untuk menyimpan produk yang diminati.  
+   - Cart untuk mengelola barang belanja dengan pengaturan kuantitas dan penerapan kupon.  
+
+7. **Filter Produk**:  
+   Mempermudah pengguna mencari produk berdasarkan kategori, harga, atau rating.  
+
+8. **Riwayat Transaksi (Transaction History)**:  
+   Mencatat dan menampilkan aktivitas pembelian pengguna secara terorganisir.  
+
+9. **Admin Dashboard**:  
+   Halaman untuk admin mengelola produk, kategori, diskon, pengguna, dan data transaksi dengan antarmuka yang mudah digunakan.  
+
+10. **Rating & Review Produk**:  
+    Pengguna dapat memberikan ulasan dan rating untuk membantu calon pembeli lainnya memilih produk terbaik.  
+
+11. **Fitur Kupon**:  
+    Pengguna dapat memasukkan kode kupon untuk mendapatkan diskon pada total belanja.  
+
+---
+
+Dengan fitur-fitur unggulan ini, kami yakin **Revife** dapat menjadi platform e-commerce pilihan yang mengutamakan kenyamanan dan gaya hidup modern. 
+
+Terima kasih telah mengunjungi proyek kami! 😊  
+Jika ada pertanyaan atau masukan, jangan ragu untuk menghubungi kami.
